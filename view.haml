@@ -1,0 +1,9 @@
+.panel
+  .title
+    User Roles
+  .body
+    -if (count($roles)>0)
+      %ul
+        -foreach($roles as $role)
+          %li +$role->name
+        

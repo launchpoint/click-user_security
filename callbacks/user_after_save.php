@@ -1,0 +1,3 @@
+<?
+
+$user->commit_roles();
